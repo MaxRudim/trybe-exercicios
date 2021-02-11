@@ -1,0 +1,28 @@
+.pul-style {
+    background-color: orangered;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 65px;
+    color: orange;
+}
+p {
+    font-weight: 600;
+    font-size: 3em;
+    font-style: fantasy;
+    line-height: 1;
+    text-align: center;
+    text-decoration: red;
+}
+body {
+    font-size: 16px;
+}
+#li1-style {
+    background-color: yellow;
+}
+#li2-style {
+    background-color: red;
+}
+#li3-style {
+    background-color: brown;
+}
