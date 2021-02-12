@@ -33,5 +33,9 @@ li em {
 }
 
 #java {
-    color:magenta;
+    background-color:magenta;
+}
+
+.ListAliados:hover {
+    font-weight: bolder;
 }
