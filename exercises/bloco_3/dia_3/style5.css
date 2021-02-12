@@ -1,0 +1,42 @@
+.ordenada-style li {
+    background-color: yellow;
+    color: white;
+}
+
+ol li:nth-child(2n+1) {
+    text-transform:uppercase;
+}
+
+ol li:nth-child(2n+2) {
+    color: green;
+}
+
+.header {
+    color: red;
+}
+
+.header:nth-child(1) {
+    line-height: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: bolder;
+}
+
+.tresprimeiros {
+    color: blue;
+}
+
+#java {
+    background-color:magenta;
+}
+
+.ListAliados:hover {
+    font-weight: bolder;
+    color: green;
+}
