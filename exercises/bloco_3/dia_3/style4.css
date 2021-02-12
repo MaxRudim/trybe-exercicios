@@ -1,0 +1,28 @@
+div:hover {
+    border: 5px solid black;
+}
+
+#prim-div {
+    background-color:yellow;
+}
+
+#sec-div {
+    background-color: green;
+}
+
+#com-div {
+    background-color: red;
+    line-height: 80px;
+}
+
+#esc-div {
+    background-color: magenta;
+}
+
+#cla-div {
+    background-color:blue;
+}
+
+h3 {
+    color: white;
+}
