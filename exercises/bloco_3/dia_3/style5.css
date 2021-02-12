@@ -38,4 +38,5 @@ li em {
 
 .ListAliados:hover {
     font-weight: bolder;
+    color: green;
 }
