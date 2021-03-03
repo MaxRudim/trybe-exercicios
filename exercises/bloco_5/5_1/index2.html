@@ -50,8 +50,8 @@
         }
         changeColor();
         function changeRed() {
-          let oldRedColor = document.querySelector(.main-content .center-content);
-          oldRedColor.background = "white";
+          let oldRedColor = document.getElementsByClassName('center-content')[0];
+          oldRedColor.style.background = "white";
         }
         changeRed();
         /*
