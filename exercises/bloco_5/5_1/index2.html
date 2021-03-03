@@ -54,6 +54,24 @@
           oldRedColor.style.background = "white";
         }
         changeRed();
+        function correctTitle() {
+          let targetTitle = document.getElementsByClassName('title')[0];
+          targetTitle.innerHTML = 'Exercício 5.1 - JavaScript';
+        }
+        correctTitle();
+        function tagsToUpperCase() {
+          let oldParagraphs = document.getElementsByTagName('p')[0];
+          oldParagraphs.innerHTML = oldParagraphs.innerHTML.toUpperCase();
+        }
+        tagsToUpperCase();
+        // OBS: o de baixo aparece no inspecionar do navegador (é console.log);
+        function showContent() {
+          let paragraphs = document.getElementsByTagName('p');
+          for (let i = 0; i < paragraphs.length; i += 1) {
+            console.log(paragraphs[i].innerHTML);
+          }
+        }
+        showContent();
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
