@@ -73,6 +73,19 @@
       let paragraph = document.createElement('p');
       paragraph.innerHTML = 'Aprendendo a manipular DOM na Trybe';
       document.querySelector('div').firstChild.appendChild(paragraph);
+
+      let thirdDiv = document.createElement('div');
+      thirdDiv.className = 'left-content';
+      document.querySelector('div').appendChild(thirdDiv);
+
+      let fourthDiv = document.createElement('div');
+      fourthDiv.className = 'right-content';
+      document.querySelector('div').appendChild(fourthDiv);
+
+      let image = document.createElement('img');
+      image.src = 'https://picsum.photos/200';
+      image.className = 'small-image';
+      document.querySelector('div').firstChild.nextSibling.appendChild(image);
     </script>
   </body>
 </html>
